@@ -1,0 +1,20 @@
+.header {
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: #A0CED9;
+    padding: auto;
+    margin: 0 0 0 0;
+    align-items: center;
+    text-align: center;
+    height: 10vh;
+    vertical-align: middle;
+    justify-content: center;
+    border-radius: 1vh;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.header > h1 {
+    color: #27476e;
+    margin: 0%;
+}

@@ -1,0 +1,86 @@
+.listDisplay {
+    margin: 1%;
+    transition: 0.5ms;
+    border-top: 1px solid black;
+    border-radius: 1vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.listItem {
+    display: flex;
+    flex-direction: column;
+}
+
+.listContent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-wrap: wrap;
+}
+
+.listContent > p {
+    width: 10%;
+    margin: auto;
+    text-wrap: wrap;
+    font-size: 12px;
+}
+
+.listContent h2 {
+    text-align: left;
+    width: 70%;
+    margin: auto;
+    margin-left: 10px;
+}
+
+.listContent > button {
+    height: 5vh;
+    margin: auto;
+    background-color: rgba(200,0,0);
+    color: white;
+}
+
+
+.listDisplay:hover{
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: 0.5ms;
+    background-color:rgba(255,255,255,0.7);
+}
+
+.desc_time {
+    text-align: right;
+    font-size: 11px;
+}
+
+.updateButton {
+    margin-top: 10px;
+    align-items: flex-end;
+}
+
+.update_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:1%;
+}
+
+.checkbox_completed {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 5px;
+    size: 5vh;
+}
+
+.textfield  {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 5px;
+    height: 5vh;
+    padding-left: 10px;
+    width: 80%;
+}
+
+.update_form button {
+    height: 5vh;
+    width: 50%
+}
